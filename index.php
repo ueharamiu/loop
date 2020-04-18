@@ -25,10 +25,9 @@ for($i = 0; $i <= 10; $i++) {
 
 echo '<br>';
 
-for($i = 2,$j = 100; $i <= 20; $i*2,$j*2) {
+for($i = 2; $i <= 20; $i *2) {
   echo $i;
   $i = $i * 2;
-  echo $j;
+  echo '<br>';
 }
-
 ?>
