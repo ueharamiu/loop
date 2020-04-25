@@ -17,6 +17,16 @@ echo TITLE . "は" . 300 * TAX . "円です";
 
 echo '<br>';
 echo '<br>';
+$flag = '俺、この戦争が終わったら告白するんだ！';
+ if ($flag == true) {
+   echo '死亡';
+
+} else {
+  echo '生存';
+}
+
+echo '<br>';
+echo '<br>';
 $i = 0;
 while($i <= 20) {
   echo $i;
