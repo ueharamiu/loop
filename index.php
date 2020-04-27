@@ -2,7 +2,39 @@
 
 <?php
 // テスト
-  echo "Hellow World";
+echo "<h1>Hellow World</h1>";
+echo '<br>';
+echo '<br>';
+
+/* 条件分岐 elseif */
+$data = 10;
+if( $data == 1 ) {
+  echo '$dataの値は' . 1;
+} elseif( $data == 5 ) {
+  echo '$dataの値は' . 5;
+} elseif( $data == 20 ) {
+  echo '$dataの値は' . 20;
+} else {
+  echo '$dataの値は1および5および20以外の値です';
+}
+echo '<br>';
+echo '<br>';
+/* 条件分岐 switch */
+switch( $data ) {
+  case 1;
+    echo '$dataの値は' . 1;
+    break;
+  case 5;
+    echo '$dataの値は' . 5;
+    break;
+  case 20;
+    echo '$dataの値は' . 20;
+    break;
+  default;
+    echo '$dataの値は1および5および20以外の値です';
+    break;
+}
+
   echo '<br>';
   echo '<br>';
 $i = 200;
@@ -19,19 +51,25 @@ echo '<br>';
 echo '<br>';
 $flag = '俺、この戦争が終わったら告白するんだ！';
  if ($flag == true) {
-   echo '死亡';
-
+  echo '死亡';
 } else {
   echo '生存';
 }
+echo '<br>';
+echo '<br>';
+if(false)
+  echo 'フラグ';
+  else echo 'フラグじゃない';
+echo '<br>';
+echo '<br>';
 
-echo '<br>';
-echo '<br>';
 $i = 0;
 while($i <= 20) {
   echo $i;
   $i = $i + 2;
 }
+
+
 
 echo '<br>';
 
