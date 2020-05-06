@@ -2,7 +2,7 @@
 
 <?php
 // テスト
-echo "<h1>Hellow World</h1>";
+echo "<h1>テスト</h1>";
 echo '<br>';
 echo '<br>';
 
