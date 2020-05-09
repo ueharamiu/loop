@@ -2,13 +2,13 @@
 
 <?php
 // テスト
-echo "<h1>テスト</h1>";
+echo "<h1>Hello World</h1>";
 echo '<br>';
 echo '<br>';
 
 /* 条件分岐 elseif */
 $data = 10;
-if( $data == 1 ) {
+if( $data == 10 ) {
   echo '$dataの値は' . 1;
 } elseif( $data == 5 ) {
   echo '$dataの値は' . 5;
@@ -34,9 +34,35 @@ switch( $data ) {
     echo '$dataの値は1および5および20以外の値です';
     break;
 }
+echo '<br>';
+echo '<br>';
+// for文
+for( $j = 0; $j < 20; $j++ ) {
+  echo $j;
+  $j++;
+}
 
-  echo '<br>';
-  echo '<br>';
+echo '<br>';
+echo '<br>';
+// while文
+while( $a < 20 ) {
+  $a++;
+}
+echo $a;
+
+echo '<br>';
+echo '<br>';
+// foreach文
+$arr = array(1, 2, 3, 4);
+foreach ($arr as &$value) {
+    $value = $value * 3;
+    echo $value;
+}
+// $arr は array(2, 4, 6, 8)となる
+unset($value); 
+
+echo '<br>';
+echo '<br>';
 $i = 200;
   print( "このパンは" . $i . "円です" );
 
