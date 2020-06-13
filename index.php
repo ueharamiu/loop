@@ -6,6 +6,23 @@ echo "<h1>Hello World</h1>";
 echo '<br>';
 echo '<br>';
 
+// for文練習問題 2020.6.13
+$list = array(11, 22, 33, 44, 55, 66);
+  for ( $answer = 0; $answer < 7; $answer++ ){
+    echo $list[$answer] . '<br>';
+  }
+
+
+// foreach文を for文へ変更　2020.6.13
+$names = array( '太郎', '次郎', '三郎', '四郎', '五郎' );
+  for ( $name = 0; $name < 6; $name++ ) {
+    echo $names[$name] . '<br>';
+  }
+
+// for文を使って10から1までを出力　2020.6.13
+for ( $number = 10; $number > 0; $number-- ) {
+  echo $number . '<br>';
+}
 /* 条件分岐 elseif */
 $data = 10;
 if( $data == 10 ) {
